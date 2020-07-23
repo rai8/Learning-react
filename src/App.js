@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Person from "./components/Person"
+
+import "./App.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Introduction to React</h1>
+      <div style={styles}>
+        <Person name="Rhytonne" age="24" />
+        <Person name="Bridgit" age="17" />
+      </div>
     </div>
-  );
+  )
+}
+const styles = {
+  display: "flex",
 }
 
-export default App;
+export default App
