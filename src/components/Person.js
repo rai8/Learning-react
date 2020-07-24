@@ -14,6 +14,7 @@ const styles = {
   marginLeft: "10px",
   boxShadow: "1px 1px 3px grey",
   padding: "20px",
+
   marginTop: "15px",
 }
 export default Person
